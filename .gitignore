@@ -1,0 +1,28 @@
+# 二进制
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# 依赖
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+EOF
