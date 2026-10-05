@@ -16,6 +16,15 @@ go.work.sum
 # 依赖
 /vendor/
 
+# 本地 Go 构建缓存（沙箱内 GOCACHE 指向这里时使用）
+/.gocache/
+
+# profiling 产物
+*.prof
+cpu.out
+mem.out
+trace.out
+
 # IDE
 .idea/
 .vscode/
@@ -25,4 +34,3 @@ go.work.sum
 # 系统
 .DS_Store
 Thumbs.db
-EOF
